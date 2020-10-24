@@ -18,7 +18,7 @@
     "format": "eslint --fix"
   },
   "dependencies": {
-    "svelte": "^3.24.0"
+    "svelte": "^3.29.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^1.9.0",
