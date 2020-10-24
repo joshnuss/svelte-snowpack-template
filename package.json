@@ -32,6 +32,6 @@
     "eslint-plugin-svelte3": "^2.7.3",
     "jest": "^26.2.2",
     "snowpack": "^2.15.0",
-    "svelte-check": "1.0.60"
+    "svelte-check": "^1.0.0"
   }
 }
