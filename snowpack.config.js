@@ -10,10 +10,14 @@ module.exports = {
       '@snowpack/plugin-run-script',
       {cmd: 'svelte-check --output human', watch: '$1 --watch', output: 'stream'},
     ],
+    [
+      '@snowpack/plugin-run-script',
+      {cmd: 'jest', watch: '$1 --watchAll', output: 'stream'},
+    ],
     ['@snowpack/plugin-run-script', {
       cmd: 'eslint \'src/**/*.{js,jsx,ts,tsx}\'',
       watch: 'watch "$1" src'
-    }]
+    }],
   ],
   install: [
     /* ... */
