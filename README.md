@@ -1,6 +1,14 @@
-# New Project
+# Svelte Snowpack Template
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+A basic Svelte template for Snowpack, with eslint and tailwind configured.
+
+# Usage
+
+To use this template:
+
+```bash
+npx create-snowpack-app name --template @joshnuss/svelte-snowpack-template
+```
 
 ## Available Scripts
 
