@@ -5,6 +5,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "csa-template",
+    "snowpack",
+    "svelte"
+  ],
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
