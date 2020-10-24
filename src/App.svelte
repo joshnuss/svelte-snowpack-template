@@ -1,12 +1,12 @@
 <script>
-  import {onMount} from 'svelte';
-  let count = 0;
+  import {onMount} from 'svelte'
+  let count = 0
   onMount(() => {
-    const interval = setInterval(() => count++, 1000);
+    const interval = setInterval(() => count++, 1000)
     return () => {
-      clearInterval(interval);
-    };
-  });
+      clearInterval(interval)
+    }
+  })
 </script>
 
 <style>
@@ -50,7 +50,7 @@
       transform: scale(1);
     }
     to {
-      transform: scale(1.06);
+      transform: scale(1.16);
     }
   }
 </style>
