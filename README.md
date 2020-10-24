@@ -1,6 +1,6 @@
 # Svelte Snowpack Template
 
-A basic Svelte template for Snowpack, with eslint and tailwind configured.
+A basic Svelte template for `snowpack`, with `jest`, `eslint`, and `tailwind` configured.
 
 # Usage
 
