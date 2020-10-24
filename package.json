@@ -1,4 +1,10 @@
 {
+  "name": "@joshnuss/svelte-snowpack-template",
+  "version": "0.1.0",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
