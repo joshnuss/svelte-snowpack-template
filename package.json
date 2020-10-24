@@ -9,7 +9,8 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint",
+    "format": "eslint --fix"
   },
   "dependencies": {
     "svelte": "^3.24.0"
