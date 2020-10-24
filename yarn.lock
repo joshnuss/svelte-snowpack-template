@@ -5498,7 +5498,7 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-svelte-check@^1.0.0:
+svelte-check@1.0.60:
   version "1.0.60"
   resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.0.60.tgz#7496b9bcaff791f250a5ba9166a0f10620be0f42"
   integrity sha512-trkcPGNnSRJZjQgKgqxh3ZZdqH57xksyHH9B2YcJ+VGqoMS1OzwkxWav1J39/VLM1K8GbNwFOfso6KIdS8L+0Q==
