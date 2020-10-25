@@ -12,7 +12,7 @@ module.exports = {
     ],
     [
       '@snowpack/plugin-run-script',
-      {cmd: 'jest', watch: '$1 --watchAll', output: 'stream'},
+      {cmd: 'jest', watch: '$1 --watchAll --notify --notifyMode always', output: 'stream'},
     ],
     ['@snowpack/plugin-run-script', {
       cmd: 'eslint \'src/**/*.{js,jsx,ts,tsx}\'',
