@@ -1,13 +1,15 @@
 # Svelte Snowpack Template
 
-A basic Svelte template for `snowpack`, with `jest`, `eslint`, `postcss`, `tailwind` and `rollup` configured.
+A `snowpack` template for `svelte`.
+
+Conbfigured with `jest`, `eslint`, `postcss`, `tailwind` and `rollup`.
 
 # Usage
 
 To use this template:
 
 ```bash
-npx create-snowpack-app name --template @joshnuss/svelte-snowpack-template
+npx create-snowpack-app --template @joshnuss/svelte-snowpack-template --target path/to/dir
 ```
 
 ## Available Scripts
