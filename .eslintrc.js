@@ -6,7 +6,7 @@ module.exports = {
     'jest/globals': true
   },
   plugins: ['jest', 'svelte3'],
-  ignorePatterns: ['node_modules/', 'public/build'],
+  ignorePatterns: ['node_modules/', 'public', 'build'],
   extends: 'eslint:recommended',
   globals: {
     Atomics: 'readonly',
@@ -18,7 +18,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.svelte'],
+      files: ['*.svelte'],
       processor: 'svelte3/svelte3'
     },
   ],
