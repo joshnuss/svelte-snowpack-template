@@ -19,6 +19,10 @@ module.exports = {
       cmd: 'eslint \'src/**/*.{js,jsx,ts,tsx}\'',
       watch: 'watch "$1" src'
     }],
+    ['snowpack-plugin-rollup-bundle', {
+      emitHtmlFiles: true,
+      entrypoints: 'build/_dist_/index.js'
+    }]
   ],
   install: [
     /* ... */

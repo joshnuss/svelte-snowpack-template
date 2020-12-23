@@ -1,6 +1,6 @@
 # Svelte Snowpack Template
 
-A basic Svelte template for `snowpack`, with `jest`, `eslint`, `postcss`, and `tailwind` configured.
+A basic Svelte template for `snowpack`, with `jest`, `eslint`, `postcss`, `tailwind` and `rollup` configured.
 
 # Usage
 
@@ -37,4 +37,6 @@ Formats all files according to rules defined in `.eslintrc.js`.
 Builds a static copy of your site to the `build/` folder.
 Your app is ready to be deployed!
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/master/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.json` config file.
+# License
+
+MIT
