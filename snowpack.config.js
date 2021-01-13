@@ -24,21 +24,15 @@ module.exports = {
       entrypoints: 'build/_dist_/index.js'
     }]
   ],
-  install: [
-    /* ... */
-  ],
-  installOptions: {
-    /* ... */
-  },
   devOptions: {
     /* ... */
   },
   buildOptions: {
     /* ... */
   },
-  proxy: {
+  routes: [
     /* ... */
-  },
+  ],
   alias: {
     '@': './src'
   },
